@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38866A9328EC9E3800531B14 /* mini-train-ride-sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38866A9128EC9E3800531B14 /* mini-train-ride-sounds.mp3 */; };
+		38866A9428EC9E3800531B14 /* morning-birds-singing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38866A9228EC9E3800531B14 /* morning-birds-singing.mp3 */; };
+		38866A9628EC9FA200531B14 /* HepticBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38866A9528EC9FA200531B14 /* HepticBootcamp.swift */; };
+		38866A9828ED4EE200531B14 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38866A9728ED4EE200531B14 /* LocalNotificationBootcamp.swift */; };
+		38866A9A28ED58B600531B14 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38866A9928ED58B600531B14 /* HashableBootcamp.swift */; };
+		38D040E828EC4A9800DB5F3B /* SoundBoorcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D040E728EC4A9800DB5F3B /* SoundBoorcamp.swift */; };
 		78658D0428DCD26100348296 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78658D0328DCD26100348296 /* GeometryReaderBootcamp.swift */; };
 		78658D0628DCD7DF00348296 /* MultipleSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78658D0528DCD7DF00348296 /* MultipleSheetBootcamp.swift */; };
 		78658D0928DCDD0A00348296 /* MutipleSheetBootcamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78658D0828DCDD0A00348296 /* MutipleSheetBootcamp1.swift */; };
@@ -45,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38866A9128EC9E3800531B14 /* mini-train-ride-sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mini-train-ride-sounds.mp3"; sourceTree = "<group>"; };
+		38866A9228EC9E3800531B14 /* morning-birds-singing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "morning-birds-singing.mp3"; sourceTree = "<group>"; };
+		38866A9528EC9FA200531B14 /* HepticBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticBootcamp.swift; sourceTree = "<group>"; };
+		38866A9728ED4EE200531B14 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		38866A9928ED58B600531B14 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		38D040E728EC4A9800DB5F3B /* SoundBoorcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundBoorcamp.swift; sourceTree = "<group>"; };
 		78658D0328DCD26100348296 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		78658D0528DCD7DF00348296 /* MultipleSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetBootcamp.swift; sourceTree = "<group>"; };
 		78658D0828DCDD0A00348296 /* MutipleSheetBootcamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutipleSheetBootcamp1.swift; sourceTree = "<group>"; };
@@ -93,11 +105,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78658D0728DCDCD500348296 /* New Group */ = {
+		38866A9028EC9E2200531B14 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				38866A9128EC9E3800531B14 /* mini-train-ride-sounds.mp3 */,
+				38866A9228EC9E3800531B14 /* morning-birds-singing.mp3 */,
 			);
-			path = "New Group";
+			path = Sound;
 			sourceTree = "<group>";
 		};
 		788F1B9D28CE59C70068D9CC = {
@@ -136,8 +150,12 @@
 				78658D0828DCDD0A00348296 /* MutipleSheetBootcamp1.swift */,
 				78658D0A28DCE12A00348296 /* MultipleSheetBootcamp2.swift */,
 				78658D0C28DCE2C200348296 /* MaskBootcamp.swift */,
-				78658D0728DCDCD500348296 /* New Group */,
+				38D040E728EC4A9800DB5F3B /* SoundBoorcamp.swift */,
+				38866A9528EC9FA200531B14 /* HepticBootcamp.swift */,
+				38866A9728ED4EE200531B14 /* LocalNotificationBootcamp.swift */,
+				38866A9928ED58B600531B14 /* HashableBootcamp.swift */,
 				788F1BAD28CE59C80068D9CC /* Assets.xcassets */,
+				38866A9028EC9E2200531B14 /* Sound */,
 				788F1BAF28CE59C80068D9CC /* Preview Content */,
 			);
 			path = SwiftContinueLearningIntermediate;
@@ -273,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				788F1BB128CE59C80068D9CC /* Preview Assets.xcassets in Resources */,
+				38866A9328EC9E3800531B14 /* mini-train-ride-sounds.mp3 in Resources */,
+				38866A9428EC9E3800531B14 /* morning-birds-singing.mp3 in Resources */,
 				788F1BAE28CE59C80068D9CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +320,9 @@
 			files = (
 				78658D0628DCD7DF00348296 /* MultipleSheetBootcamp.swift in Sources */,
 				78658D0928DCDD0A00348296 /* MutipleSheetBootcamp1.swift in Sources */,
+				38866A9628EC9FA200531B14 /* HepticBootcamp.swift in Sources */,
 				788F1BDC28D303690068D9CC /* DragGestureBootcamp2.swift in Sources */,
+				38866A9828ED4EE200531B14 /* LocalNotificationBootcamp.swift in Sources */,
 				788F1BDA28D2F3680068D9CC /* DragGestureBootcamp.swift in Sources */,
 				788F1BAC28CE59C70068D9CC /* ContentView.swift in Sources */,
 				788F1BDE28D39A2B0068D9CC /* ScrollViewReaderBootcamp.swift in Sources */,
@@ -308,6 +330,8 @@
 				788F1BD628D2E9E30068D9CC /* MagnificationGestureBootcamp.swift in Sources */,
 				78658D0428DCD26100348296 /* GeometryReaderBootcamp.swift in Sources */,
 				788F1BD428CE59E40068D9CC /* LongPressGestureBootcamp.swift in Sources */,
+				38D040E828EC4A9800DB5F3B /* SoundBoorcamp.swift in Sources */,
+				38866A9A28ED58B600531B14 /* HashableBootcamp.swift in Sources */,
 				78658D0D28DCE2C200348296 /* MaskBootcamp.swift in Sources */,
 				788F1BD828D2F14E0068D9CC /* RotationGestureBootcamp.swift in Sources */,
 				78658D0B28DCE12A00348296 /* MultipleSheetBootcamp2.swift in Sources */,
@@ -471,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftContinueLearningIntermediate/Preview Content\"";
+				DEVELOPMENT_TEAM = 36532KZ75Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -499,6 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftContinueLearningIntermediate/Preview Content\"";
+				DEVELOPMENT_TEAM = 36532KZ75Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
