@@ -15,7 +15,6 @@ import SwiftUI
 struct MyCustomModel: Hashable {
     let name: String
     
-    
     func hash(into hasher: inout Hasher) {
         hasher.combine(name)
     }
